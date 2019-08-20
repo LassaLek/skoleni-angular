@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'skoleni';
+  clickCount = 0;
+
+  increment() {
+    this.clickCount++;
+  }
 }
