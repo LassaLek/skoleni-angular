@@ -20,7 +20,7 @@ Examples:
 - base component
 Command: ng g c components/box - add new component BOX to main app module
 - to specific module
-Command: ng g c feature/components/list --module=feature - add new component LIST to feature module
+Command: ng g c feature/components/list --module=feature --export=true - add new component LIST to feature module
 - inline component
 pregenerated <app-inline-box></app-inline-box>
 
