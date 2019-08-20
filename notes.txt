@@ -1,0 +1,8 @@
+Command:
+ng generate component <name> (can be shortened to g, c)
+- some options (other will be explained later)
+
+Examples: 
+- to specific module
+- base component 
+
