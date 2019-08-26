@@ -1,5 +1,10 @@
 introduce Input()
-...
+- Decorator that marks a class field as an input property and supplies configuration metadata. The input property is bound to a DOM property in the template. During change detection, Angular automatically updates the data property with the DOM property's value.
+- do list komponenty pridam @Input(/*'list-item'*/) item: string = 'DEFAULT'; a nasetuju tam, kde pouzivam
+
+
 introduce Output()
-....
+- Decorator that marks a class field as an output property and supplies configuration metadata. The DOM property bound to the output property is automatically updated during change detection.
+- - do list komponenty pridam @Output() clickEmitter = new EventEmitter<void>(); a prepouziju venku
+
 
